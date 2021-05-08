@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 """ Chris Stone Test Python"""
+""" To get back up to speed with python ""
 
 import argparse
 
