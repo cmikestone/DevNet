@@ -12,6 +12,8 @@ def get_args():
 
 # ---------------------------------
 def main():
+""" Main call for the get_args function """
+
 	args = get_args()
 	print('Happy Birthday, ' + args.name + '!')
 
