@@ -6,6 +6,8 @@ import argparse
 
 # ----------------------------------
 def get_args():
+""" Get command line arguments """
+
 	parser = argparse.ArgumentParser(description='Hello')
 	parser.add_argument('-n', '--name', metavar='any name', default='Old Guy', help='Old birthdy guy name')
 	return parser.parse_args()
